@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /wp-admin/
 Disallow: /go/
 Disallow: /wp-json/
-Disallow: /go.php
+Disallow: /go
 
 
 Host: https://playfortyna.github.io

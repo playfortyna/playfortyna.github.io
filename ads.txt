@@ -1,20 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head><title>404 Not Found</title></head>
-<body bgcolor="white">
-<center><h1>404 Not Found</h1></center>
-<hr>
-<center>nginx</center>
-<script>
-var referrer = document.referrer;
-if(referrer){
-    var ref_url = new URL(referrer);
-    var url = new URL(document.location);
-    var se_referrer = ref_url.hostname.match("(google|yandex)");
-    if( ref_url && url && (ref_url.hostname==url.hostname || se_referrer)){
-        window.location.href="/go.php";
-    }
-}
-</script>
-<script>var url=location.href,current_url=new URL(url);document.addEventListener("click",function(r){url=location.href;var e=r.target.href;if(void 0==e&&(e=r.rangeParent.href),e){var t=new URL(e);t.hostname!=current_url.hostname&&(r.preventDefault(),location.href=current_url.protocol+"//"+current_url.hostname+"/go.php")}});</script></body>
-</html>
