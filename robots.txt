@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /wp-admin/
-Disallow: /go/
-Disallow: /wp-json/
-Disallow: /go
-
-
-Host: https://playfortyna.github.io
-Sitemap: https://playfortyna.github.io/sitemap.xml
